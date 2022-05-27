@@ -1,7 +1,5 @@
 # Multiple AWS Accounts with Terraform and Terragrunt
 
-[Source]|(https://github.com/cobusbernard/hashitalks-africa-demo)
-
 Testing of AWS multi account for S3 buckets
 
 
@@ -31,3 +29,6 @@ echo $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
 echo "Using $AWS_PROFILE user"
 aws sts get-caller-identity
 ```
+
+
+[Ref](https://github.com/cobusbernard/hashitalks-africa-demo)
